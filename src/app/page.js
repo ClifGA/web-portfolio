@@ -3,7 +3,6 @@ import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import Image from "next/image";
 import { useRef, useState } from "react";
 import ExperienceTimeline from "./component/ExperienceTimeline";
-import ContactForm from "./component/ContactForm";
 import Projects from "./component/Projects";
 
 export default function Home() {
