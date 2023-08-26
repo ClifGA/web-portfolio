@@ -110,10 +110,6 @@ export default function Home() {
         <h2 className="text-3xl mb-4">About Me</h2>
         <ExperienceTimeline />
       </section>
-      <section className="py-10" id="contact" ref={contactRef}>
-        <h2 className="text-3xl mb-4">Contact Me</h2>
-        
-      </section>
     </main>
   );
 }
