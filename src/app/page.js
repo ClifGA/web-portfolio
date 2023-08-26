@@ -37,7 +37,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-black text-white px-4 py-2 rounded-md"
-                  href="https://docs.google.com/document/d/1nJynCd0AaMbD9V-8Avotaz4IA7iCWBA3XVbQCiOGyN4/edit?usp=sharing"
+                  href="https://drive.google.com/file/d/1Xh20h4T21muQeCOJhAUcpoynaNidKPaf/view?usp=sharing"
                   target="_blank"
                 >
                   ./Resume
@@ -113,7 +113,7 @@ export default function Home() {
       </section>
       <section className="py-10" id="contact" ref={contactRef}>
         <h2 className="text-3xl mb-4">Contact Me</h2>
-        <ContactForm />
+        
       </section>
     </main>
   );
