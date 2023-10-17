@@ -36,7 +36,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-black text-white px-4 py-2 rounded-md"
-                  href="https://drive.google.com/file/d/1Xh20h4T21muQeCOJhAUcpoynaNidKPaf/view?usp=sharing"
+                  href="https://docs.google.com/document/d/1sEWEdToH3bLmEV3_4np8P-rY2FEhakUNQ_H941lM3kc/edit?usp=sharing"
                   target="_blank"
                 >
                   ./Resume
@@ -53,14 +53,6 @@ export default function Home() {
               <li className="bg-black text-white px-4 py-2 rounded-md">
                 <button className="focus:outline-none" onClick={scrollToAbout}>
                   ./About
-                </button>
-              </li>
-              <li className="bg-black text-white px-4 py-2 rounded-md">
-                <button
-                  className="focus:outline-none"
-                  onClick={scrollToContact}
-                >
-                  ./Contact
                 </button>
               </li>
             </ul>
