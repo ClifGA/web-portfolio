@@ -8,22 +8,12 @@ import Projects from "./component/Projects";
 export default function Home() {
   const projectRef = useRef(null);
   const aboutRef = useRef(null);
-  const contactRef = useRef(null);
 
   const scrollToProjects = () => {
     projectRef.current.scrollIntoView({ behavior: "smooth" });
   };
   const scrollToAbout = () => {
     aboutRef.current.scrollIntoView({ behavior: "smooth" });
-  };
-  const scrollToContact = () => {
-    contactRef.current.scrollIntoView({ behavior: "smooth" });
-  };
-
-  const [showInformation, setShowInformation] = useState(false);
-
-  const handleClick = () => {
-    setShowInformation(!showInformation);
   };
 
   return (
@@ -56,6 +46,10 @@ export default function Home() {
                 </button>
               </li>
             </ul>
+          </div>
+
+          <div className="text-black px-4 py-2 rounded-md">
+            Acceptance: 0 Rejections: 453 Interviews: 3{" "}
           </div>
         </nav>
         <div className="text-center p-10">
