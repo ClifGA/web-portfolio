@@ -5,13 +5,13 @@ const Projects = () => {
     {
       name: "EduGuide",
       githubLink: "https://github.com/sofiakatzman/Team3-Hacktember2023",
-      demoLink: "https://drive.google.com/file/d/1bmDuhEl4t8JxHCZb7wNX5a-4Lza6WS2-/view?usp=drive_link",
+      demoLink: "https://drive.google.com/file/d/1lUOW0GfxXREClLFSfCbVPNDRDbZdC7OS/view?usp=sharing" ,
       liveLink: 'https://hackathonsubmission.onrender.com/', 
     },
     {
       name: "Admin Dashboard",
       githubLink: "https://github.com/ClifGA/admin-dashboard",
-      demoLink: "https://drive.google.com/file/d/1lUOW0GfxXREClLFSfCbVPNDRDbZdC7OS/view?usp=sharing",
+      demoLink: "https://drive.google.com/file/d/1bmDuhEl4t8JxHCZb7wNX5a-4Lza6WS2-/view?usp=drive_link",
       liveLink: null, 
     },
     {
