@@ -32,7 +32,7 @@ function ExperienceTimeline() {
             landscape. I continually stay updated with the latest advancements
             in technologies and industry standards to ensure that I am
             well-prepared to tackle complex challenges and deliver exceptional
-            results.  
+            results.
           </p>
         </div>
         <h2 className="text-2xl font-bold mb-4">EXPERIENCE</h2>
@@ -43,12 +43,22 @@ function ExperienceTimeline() {
           </div>
           <div className="ml-4 pl-5 pb-4 border-l-2 border-gray-300">
             <h3 className="text-lg font-bold">
-              Mini-Circuits Lab, Brooklyn, NY
+              Quizzy News, Remote, NY
             </h3>
-            <p className="text-sm font-semibold">Infrastructure Support</p>
-            <p className="text-sm font-semibold">08/2021 - 12/25/22</p>
+            <p className="text-sm font-semibold">Full Stack Developer</p>
+            <p className="text-sm font-semibold">06/2023 - 10/2023</p>
             <ul className="list-disc pl-6"></ul>
           </div>
+        </div>
+        <div className="flex flex-row items-center">
+          <div className="w-4 h-4 rounded-full bg-black"></div>
+          <div className="w-px h-6 bg-gray-300"></div>
+        </div>
+        <div className="ml-4 pl-5 pb-4 border-l-2 border-gray-300">
+          <h3 className="text-lg font-bold">Mini-Circuits Lab, Brooklyn, NY</h3>
+          <p className="text-sm font-semibold">Infrastructure Support</p>
+          <p className="text-sm font-semibold">08/2021 - 12/2022</p>
+          <ul className="list-disc pl-6"></ul>
         </div>
         <div className="mb-6 relative">
           <div className="flex flex-row items-center">
@@ -57,15 +67,14 @@ function ExperienceTimeline() {
           </div>
           <div className="ml-4 pl-5 pb-4 border-l-2 border-gray-300">
             <h3 className="text-lg font-bold">
-              Kastle Systems LLC, City, State
+              Kastle Systems LLC, Manhattan, NY
             </h3>
             <p className="text-sm font-semibold">EPL Programmer</p>
             <p className="text-sm font-semibold">5/2017 - 01/2020</p>
             <ul className="list-disc pl-6">{/* Job responsibilities */}</ul>
           </div>
         </div>
-      </div>
-      <div>
+
         <h2 className="text-2xl font-bold mb-4">EDUCATION</h2>
         <div className="mb-6 relative">
           <div className="flex flex-row items-center">
@@ -98,4 +107,5 @@ function ExperienceTimeline() {
     </div>
   );
 }
+
 export default ExperienceTimeline;
