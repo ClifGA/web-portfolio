@@ -18,15 +18,15 @@ const Projects = () => {
       name: "E-Commerce Web Application",
       githubLink: "https://github.com/ClifGA/FlatBuy",
       demoLink: null,
-      liveLink: null, // Set to null or undefined to not show the link
+      liveLink: null, 
     },
     {
       name: "TimeSheet Mobile App",
       githubLink: "https://github.com/ClifGA/Flat_Project",
-      demoLink: null, // Set to null or undefined to not show the link
+      demoLink: null, 
       liveLink: null,
     },
-    // Add more projects to this array as needed
+    
   ];
 
   return (

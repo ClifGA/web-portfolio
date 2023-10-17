@@ -13,24 +13,26 @@ function ExperienceTimeline() {
             worked on diverse projects, troubleshooted complex issues, and
             collaborated with cross-functional teams. I developed a deep
             understanding of network infrastructure, protocols, and
-            troubleshooting techniques, allowing me to diagnose and address
+            troubleshooting techniques, which enabled me to diagnose and address
             network-related problems promptly and effectively.
           </p>
           <p className="text-black leading-loose">
-            However, my passion for software development led me to make a career
-            change to full-stack development. I pursued additional training and
-            acquired skills in web technologies, including front-end and
-            back-end development. Leveraging my technical background and
-            problem-solving abilities, I now create innovative and scalable
-            software solutions. I enjoy working with cutting-edge frameworks and
-            tools to deliver high-quality software products.
+            However, my passion for software development led me to pursue a
+            career change in full-stack development. I underwent additional
+            training and acquired skills in web technologies, encompassing both
+            front-end and back-end development. By harnessing my technical
+            background and problem-solving abilities, I now specialize in
+            creating innovative and scalable software solutions. I find great
+            satisfaction in working with cutting-edge frameworks and tools to
+            deliver high-quality software products.
           </p>
           <p className="text-black leading-loose">
             My goal is to contribute my skills and knowledge to projects that
-            make a positive impact and drive meaningful change in the digital
-            landscape. I continuously stay updated with the latest advancements
-            in technologies and industry standards to ensure that I am equipped
-            to tackle complex challenges and deliver exceptional results.
+            have a positive impact and drive meaningful change in the digital
+            landscape. I continually stay updated with the latest advancements
+            in technologies and industry standards to ensure that I am
+            well-prepared to tackle complex challenges and deliver exceptional
+            results.  
           </p>
         </div>
         <h2 className="text-2xl font-bold mb-4">EXPERIENCE</h2>
