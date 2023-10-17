@@ -49,7 +49,7 @@ export default function Home() {
           </div>
 
           <div className="text-black px-4 py-2 rounded-md">
-            Acceptance: 0 Rejections: 453 Interviews: 3{" "}
+            {/* Acceptance: 0 Rejections: 453 Interviews: 3{" "} */}
           </div>
         </nav>
         <div className="text-center p-10">
