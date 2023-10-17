@@ -1,43 +1,73 @@
 import React from "react";
-import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const Projects = () => {
+  const projectList = [
+    {
+      name: "EduGuide",
+      githubLink: "https://github.com/sofiakatzman/Team3-Hacktember2023",
+      demoLink: "https://drive.google.com/file/d/1bmDuhEl4t8JxHCZb7wNX5a-4Lza6WS2-/view?usp=drive_link",
+      liveLink: 'https://hackathonsubmission.onrender.com/', 
+    },
+    {
+      name: "Admin Dashboard",
+      githubLink: "https://github.com/ClifGA/admin-dashboard",
+      demoLink: "https://drive.google.com/file/d/1lUOW0GfxXREClLFSfCbVPNDRDbZdC7OS/view?usp=sharing",
+      liveLink: null, 
+    },
+    {
+      name: "E-Commerce Web Application",
+      githubLink: "https://github.com/ClifGA/FlatBuy",
+      demoLink: null,
+      liveLink: null, // Set to null or undefined to not show the link
+    },
+    {
+      name: "TimeSheet Mobile App",
+      githubLink: "https://github.com/ClifGA/Flat_Project",
+      demoLink: null, // Set to null or undefined to not show the link
+      liveLink: null,
+    },
+    // Add more projects to this array as needed
+  ];
+
   return (
-    <div className="flex items-center justify-center w-full h-screen">
-      <div className="w-11/12 md:w-1/2 p-4">
-        <Carousel className="carousel" showArrows={true} infiniteLoop={true}>
-          <div>
-            <img
-              className="w-full h-auto"
-              src="https://www.cloudways.com/blog/wp-content/uploads/Ecommerce-Shopping-Infographics.png"
-              alt="Project 1"
-            />
+    <div className="w-11/12 md:w-1/2 p-4">
+      <ul className="list-disc">
+        {projectList.map((project, index) => (
+          <li key={index}>
             <a
-              href="https://github.com/ClifGA/FlatBuy"
+              href={project.githubLink}
               target="_blank"
-              className="legend"
+              rel="noopener noreferrer"
             >
-              E-Commerce Web Application{" "}
+              <strong>{project.name}</strong>
             </a>
-          </div>
-          <div>
-            <img
-              className="w-full h-auto"
-              src="https://clockly.com/images/blog/employee-time-tracking-app.png?v=1665570482598076408"
-              alt="Project 2"
-            />
-            <a
-              href="https://github.com/ClifGA/Flat_Project"
-              target="_blank"
-              className="legend"
-            >
-              {" "}
-              TimeSheet Mobile App{" "}
-            </a>
-          </div>
-        </Carousel>
-      </div>
+            {project.demoLink && (
+              <>
+                <a
+                  href={project.demoLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-blue-600 ml-1 hover:underline"
+                >
+                  Demo
+                </a>
+              </>
+            )}
+            {project.liveLink && (
+              <>
+                <a
+                  href={project.liveLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-blue-600 ml-1 hover:underline"
+                >
+                  Live
+                </a>
+              </>
+            )}
+          </li>
+        ))}
+      </ul>
     </div>
   );
 };
