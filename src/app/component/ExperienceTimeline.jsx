@@ -4,37 +4,35 @@ function ExperienceTimeline() {
   return (
     <div className="max-w-lg mx-auto">
       <div className="mb-8">
-        <div className="text-center p-10">
-          <p className="text-black leading-loose">
-            As an engineering student, I developed a strong foundation in
-            problem-solving, critical thinking, and analytical skills. After
-            completing my degree, I entered the IT industry and spent five years
-            gaining valuable experience in various roles. During this time, I
-            worked on diverse projects, troubleshooted complex issues, and
-            collaborated with cross-functional teams. I developed a deep
-            understanding of network infrastructure, protocols, and
-            troubleshooting techniques, which enabled me to diagnose and address
-            network-related problems promptly and effectively.
-          </p>
-          <p className="text-black leading-loose">
-            However, my passion for software development led me to pursue a
-            career change in full-stack development. I underwent additional
-            training and acquired skills in web technologies, encompassing both
-            front-end and back-end development. By harnessing my technical
-            background and problem-solving abilities, I now specialize in
-            creating innovative and scalable software solutions. I find great
-            satisfaction in working with cutting-edge frameworks and tools to
-            deliver high-quality software products.
-          </p>
-          <p className="text-black leading-loose">
-            My goal is to contribute my skills and knowledge to projects that
-            have a positive impact and drive meaningful change in the digital
-            landscape. I continually stay updated with the latest advancements
-            in technologies and industry standards to ensure that I am
-            well-prepared to tackle complex challenges and deliver exceptional
-            results.
-          </p>
-        </div>
+        <div className="text-left p-10 ">
+          <div>
+            <p className="text-black leading-loose">
+              As an engineering student, I developed a strong foundation in
+              problem-solving, critical thinking, and analytical skills. After
+              completing my degree, I entered the IT industry and spent five years
+              gaining valuable experience in various roles. During this time, I
+              worked on diverse projects, troubleshooted complex issues, and
+              collaborated with cross-functional teams. I developed a deep
+              understanding of network infrastructure, protocols, and
+              troubleshooting techniques, which enabled me to diagnose and address
+              network-related problems promptly and effectively.
+            </p>
+          </div>
+          <div>
+            <p className="text-black leading-loose">
+              However, my passion for software development led me to pursue a
+              career change in full-stack development. I underwent additional
+              training and acquired skills in web technologies, encompassing both
+              front-end and back-end development. By harnessing my technical
+              background and problem-solving abilities, I now specialize in
+              creating innovative and scalable software solutions. I find great
+              satisfaction in working with cutting-edge frameworks and tools to
+              deliver high-quality software products.
+            </p>
+          </div>
+        
+    
+      </div>
         <h2 className="text-2xl font-bold mb-4">EXPERIENCE</h2>
         <div className="mb-6 relative">
           <div className="flex flex-row items-center">
