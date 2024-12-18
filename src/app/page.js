@@ -80,7 +80,7 @@ export default function Home() {
           <Image
             className="rounded-full 
          "
-            src="/bwg.jpg"
+            src="/PersonaG.jpg"
             alt="Picture of the author"
             layout="fill"
           />
