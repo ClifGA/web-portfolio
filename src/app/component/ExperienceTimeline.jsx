@@ -7,31 +7,9 @@ function ExperienceTimeline() {
         <div className="text-left p-10 ">
           <div>
             <p className="text-black leading-loose">
-              As an engineering student, I developed a strong foundation in
-              problem-solving, critical thinking, and analytical skills. After
-              completing my degree, I entered the IT industry and spent five years
-              gaining valuable experience in various roles. During this time, I
-              worked on diverse projects, troubleshooted complex issues, and
-              collaborated with cross-functional teams. I developed a deep
-              understanding of network infrastructure, protocols, and
-              troubleshooting techniques, which enabled me to diagnose and address
-              network-related problems promptly and effectively.
+            I graduated with a degree in computer engineering and have worked in the IT field for over 7 years. After completing a software engineering bootcamp, I realized my true passion lies in development. I'm currently pursuing a master’s in computer science to strengthen my skills and make the shift from IT to a full-time developer. Outside of my professional life, I love watching plays and movies, playing board games, enjoying anime, and attending concerts. I'm excited to focus on growing as a developer and bring my passion to every project I take on.
             </p>
-          </div>
-          <div>
-            <p className="text-black leading-loose">
-              However, my passion for software development led me to pursue a
-              career change in full-stack development. I underwent additional
-              training and acquired skills in web technologies, encompassing both
-              front-end and back-end development. By harnessing my technical
-              background and problem-solving abilities, I now specialize in
-              creating innovative and scalable software solutions. I find great
-              satisfaction in working with cutting-edge frameworks and tools to
-              deliver high-quality software products.
-            </p>
-          </div>
-        
-    
+          </div>    
       </div>
         <h2 className="text-2xl font-bold mb-4">EXPERIENCE</h2>
         <div className="mb-6 relative">
