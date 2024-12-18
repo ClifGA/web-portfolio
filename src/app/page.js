@@ -23,15 +23,7 @@ export default function Home() {
           <div className="flex items-center">
             <h1 className="text-xl">Clifton G._</h1>
             <ul className="ml-4 flex items-center space-x-2">
-              <li>
-                <a
-                  className="bg-black text-white px-4 py-2 rounded-md"
-                  href="https://docs.google.com/document/d/1sEWEdToH3bLmEV3_4np8P-rY2FEhakUNQ_H941lM3kc/edit?usp=sharing"
-                  target="_blank"
-                >
-                  ./Resume
-                </a>
-              </li>
+            
               <li className="bg-black text-white px-4 py-2 rounded-md">
                 <button
                   className="focus:outline-none"
